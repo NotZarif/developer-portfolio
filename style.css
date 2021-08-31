@@ -24,10 +24,13 @@ section{
     display: flex;
 }
 .half{
-    margin-left: 1%;
-    padding-left: 1%;
+    width: 70%;
+    padding-left: 2%;
 }
 .half img {
+    width: 100%;
+}
+.half2 img {
     width: 100%;
 }
 .button{
@@ -42,3 +45,14 @@ section{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
+.half2{
+    width: 35%;
+    padding-left: 2%;
+}
+.list{
+    font-size: 26px;
+}
+.specs{
+    text-align: right;
+}
+
