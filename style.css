@@ -22,10 +22,13 @@ p{
 
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half{
-    width: 70%;
+    width: 120%;
     padding-left: 2%;
+    margin-top: 180px;
+    margin-right: 70px;
 }
 .half img {
     width: 100%;
@@ -40,6 +43,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin-left: 15px;
 }
 .banner{
     background-image: url(top-banner.png);
@@ -53,6 +57,13 @@ section{
     font-size: 26px;
 }
 .specs{
-    text-align: right;
+    margin-left: 30px ;
 }
-
+.specs2{
+margin-left: 300px;
+}
+.banner2{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
