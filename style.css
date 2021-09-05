@@ -20,7 +20,7 @@ p{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
@@ -66,4 +66,30 @@ margin-left: 300px;
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.review{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.review2{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato) 1;
+}
+.review3{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan) 1;
+}
+footer p {
+    margin-left: 430px;
 }
